@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    outline: none;
+}
+
+body{
+    background-image: url(./img/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    position:relative;
+}
+
+header{
+    background: #757575;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0 2px 5px #000000;
+}
+
+.header-title{
+    color: black;
+    font-size: 2rem;
+}
+
+main{
+    background: #757575;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+    gap: 20px;
+}
+
+.resume {
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume>div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.green {
+    background: #00C9A7;
+}
+
+.red {
+    background: #D83121;
+}
+
+.white {
+    background: #fff;
+}
+
+.newItem {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divDesc, .divType, .divAmount {
+    display: flex;
+    flex-direction: column;
+}
+
+.newItem>button {
+    background-color: #2C73D2;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+}
+
+input, select {
+    padding: 5px;
+}
+
+.divTable {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+table {
+    background: #a5a5a5;
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+}
+
+i {
+    font-size: 25px;
+}
+
+.bxs-chevron-up-circle {
+    color: #00C9A7;
+}
+
+.bxs-chevron-down-circle {
+    color: #D83121;
+}
+
+.columnAction {
+    width: 40px;
+    text-align: center;
+}
+
+.columnAction>button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.columnAmount {
+    width: 30%;
+}
+
+.columnType {
+    width: 80px;
+    text-align: center;
+}
